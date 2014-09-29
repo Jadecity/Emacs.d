@@ -654,7 +654,7 @@ If font lock is not loaded, lay in wait."
     (define-key km [(meta e)] 'matlab-end-of-command)
     (define-key km [(meta j)] 'matlab-comment-line-break-function)
     (define-key km [(meta s)] 'matlab-show-matlab-shell-buffer)
-    (define-key km "\M-\t" 'matlab-complete-symbol)
+    (define-key km "\M-p" 'matlab-complete-symbol)
     (define-key km [(meta control f)] 'matlab-forward-sexp)
     (define-key km [(meta control b)] 'matlab-backward-sexp)
     (define-key km [(meta control q)] 'matlab-indent-sexp)
